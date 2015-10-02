@@ -45,6 +45,14 @@ To use the ``TranslationBundle``, add the following lines to your application co
             #phpcr:
             #    enabled: true
 
+    .. code-block:: yaml
+
+        # app/config/config.yml
+
+        sonata_block:
+            blocks:
+                sonata_translation.block.locale_switcher:
+
 ==================      ============================================================================
 Key                     Description
 ==================      ============================================================================
